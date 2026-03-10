@@ -1,13 +1,13 @@
-n1 = int(input ("Nilai ke-1 : "))
-n2 = int(input ("Nilai ke-2 : "))
-n3 = int(input ("Nilai ke-3 : "))
+n1 = int(input ("Masukan nilai pertama : "))
+n2 = int(input ("Masukan nilai kedua : "))
+n3 = int(input ("Masukan nilai ketiga : "))
 
 jumlah = n1 + n2 + n3
 kali = n1 * n2 * n3
 bagi = n1 / n2 / n3
 kurang = n1 - n2 - n3
 
-print("hasil penjumlahan = ", jumlah)
-print("hasil perkalian = ", kali)
-print("hasil pembagian = ", bagi)
-print("hasil pengurangan = ", kurang)
+print("jumlah dari =", n1, "+", n2, "+", n3, "=", jumlah)
+print("kali dari =", n1, "*", n2, "*", n3, "=", kali)
+print("bagi dari =", n1, "/", n2, "/", n3, "=", bagi)
+print("kurang dari =", n1, "-", n2, "-", n3, "=", kurang)
